@@ -15,3 +15,9 @@ CREATE TABLE Languages (
     languages_id SERIAL PRIMARY KEY,
     languages_name VARCHAR(50) NOT NULL
 );
+
+-- Publishers Table
+CREATE TABLE publishers (
+    publishers_id SERIAL PRIMARY KEY,
+    publishers_name VARCHAR(100) NOT NULL
+);
