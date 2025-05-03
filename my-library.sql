@@ -6,6 +6,6 @@
 
 -- Authors Table
 CREATE TABLE authors {
-    author_id SERIAL PRIMAY KEY,
+    author_id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL
 };
