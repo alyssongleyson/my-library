@@ -9,3 +9,9 @@ CREATE TABLE topics (
     topic_id SERIAL PRIMARY KEY,
     topic_name VARCHAR(100) NOT NULL
 );
+
+-- Languages Table
+CREATE TABLE Languages (
+    languages_id SERIAL PRIMARY KEY,
+    languages_name VARCHAR(50) NOT NULL
+);
