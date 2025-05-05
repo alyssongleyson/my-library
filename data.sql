@@ -2,11 +2,19 @@
 INSERT INTO languages (languages_name) VALUES
 ('Português do Brasil');
 
---Insert Publishers
+-- Insert Publishers
 INSERT INTO Publishers (publisher_name) VALUES
 ('Novatec');
 
---Insert Authors
+-- Insert Authors
 INSERT INTO authors (name) VALUES
 ('Brian Ward'),
 ('Maurívio Samy Silva');
+
+-- Insert Topics
+INSERT INTO topics (topic_name) VALUES
+('Linux'),
+('HTML'),
+('CSS'),
+('JavaScript'),
+('Python');
