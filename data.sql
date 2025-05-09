@@ -4,7 +4,11 @@ INSERT INTO languages (languages_name) VALUES
 
 -- Insert Publishers
 INSERT INTO Publishers (publisher_name) VALUES
-('Novatec');
+('Novatec'),
+('Alta Books'),
+('Saraiva'),
+('Pearson')
+('Linux New Media');
 
 -- Insert Authors
 INSERT INTO authors (name) VALUES
